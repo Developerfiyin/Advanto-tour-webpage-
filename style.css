@@ -1,0 +1,12 @@
+.nav__logo {
+  display: flex;
+}
+
+.nav__logo a:hover {
+  color: blue;
+}
+
+.nav__logo a:active {
+  background-color: blueviolet;
+  color: red;
+}
