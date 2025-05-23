@@ -1,5 +1,15 @@
 /*IMPORT FOBOTO DACING SCRIPT FONT*/
 
+:root {
+  --primary-color: #001bbf;
+  --text-dark: #1d293d;
+  --text-light: #62748e;
+  --extra-light: #affafa;
+  --white: #ffffff;
+  --max-width: 1200px;
+  --header-font: "Dancing Script", serif;
+}
+
 * {
   margin: 0;
   padding: 0;
