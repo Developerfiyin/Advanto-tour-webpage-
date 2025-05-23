@@ -22,6 +22,15 @@
   padding: 5rem 1rem;
 }
 
+.section__subheader {
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  font-family: var(--header-font);
+  text-align: center;
+  color: var(--primary-color);
+}
+
 .nav__logo {
   display: flex;
   position: relative;
