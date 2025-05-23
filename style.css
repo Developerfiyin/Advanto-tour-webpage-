@@ -4,6 +4,8 @@
 
 .nav__logo a:hover {
   color: blue;
+
+  font-size: 2rem;
 }
 
 .nav__logo a:active {
