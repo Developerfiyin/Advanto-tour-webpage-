@@ -1,5 +1,14 @@
+/*IMPORT FOBOTO DACING SCRIPT FONT*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .nav__logo {
   display: flex;
+  position: relative;
 }
 
 .nav__logo a:hover {
