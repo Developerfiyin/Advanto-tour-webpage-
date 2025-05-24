@@ -141,6 +141,16 @@ nav {
   white-space: nowrap;
 }
 
+.nav__links a:hover {
+  color: var(--primary-color);
+}
+
+.nav__links .btn {
+  font-weight: 500;
+  color: var(--text-dark);
+  background-color: var(--extra-light);
+}
+
 .nav__logo {
   display: flex;
   position: relative;
