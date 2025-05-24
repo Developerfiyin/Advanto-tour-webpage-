@@ -85,6 +85,17 @@ body {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: "Roboto" serif;
+}
+
+nav {
+  position: fixed;
+  isolation: isolate;
+  width: 100%;
+  z-index: 9;
+}
+
 .nav__logo {
   display: flex;
   position: relative;
