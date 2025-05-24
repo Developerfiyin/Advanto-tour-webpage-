@@ -131,6 +131,16 @@ nav {
   transition: transform 0.5s;
 }
 
+.nav__links.open {
+  transform: translateY(100%);
+}
+
+.nav__links a {
+  font-weight: 500;
+  color: var(--text-dark);
+  white-space: nowrap;
+}
+
 .nav__logo {
   display: flex;
   position: relative;
