@@ -105,6 +105,16 @@ nav {
   background-color: var(--extra-light);
 }
 
+.nav__logo a img {
+  max-width: 100px;
+}
+
+.nav__menu__btn {
+  font-size: 1.5rem;
+  color: var(--text-dark);
+  cursor: pointer;
+}
+
 .nav__logo {
   display: flex;
   position: relative;
