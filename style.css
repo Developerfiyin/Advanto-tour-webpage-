@@ -65,6 +65,16 @@
 .btn:hover {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
 }
+
+img {
+  display: flex;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
 .nav__logo {
   display: flex;
   position: relative;
