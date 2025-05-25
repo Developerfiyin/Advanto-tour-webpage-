@@ -151,6 +151,18 @@ nav {
   background-color: var(--extra-light);
 }
 
+@media (width > 768px) {
+  nav {
+    position: static;
+    padding: 1rem;
+    max-width: var(--max-width);
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+}
 .nav__logo {
   display: flex;
   position: relative;
