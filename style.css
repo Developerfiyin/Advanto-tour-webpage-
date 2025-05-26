@@ -208,6 +208,20 @@ nav {
   font-weight: 600;
   color: var(--text-dark);
 }
+
+.header__content input::placeholder {
+  color: var(--text-dark);
+}
+
+.header__content .btn {
+  font-size: 1.2rem;
+  background-color: var(--text-dark);
+}
+
+.header__content .btn:hover {
+  background-color: var(--primary-color);
+}
+
 @media (width > 768px) {
   nav {
     position: static;
