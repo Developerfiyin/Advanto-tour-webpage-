@@ -191,18 +191,9 @@ nav {
   .nav__links a:hover {
     border-color: var(--primary-color);
   }
-}
 
-.nav__logo a:active {
-  background-color: blueviolet;
-  color: red;
-}
-
-li > a {
-  text-decoration: none;
-  font-size: 1.25rem;
-  font-weight: 500;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
+  .nav__links .btn {
+    color: var(--white);
+    background-color: var(--primary-color);
+  }
 }
