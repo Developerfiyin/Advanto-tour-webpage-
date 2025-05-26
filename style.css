@@ -168,6 +168,20 @@ nav {
     padding: 0;
     background-color: transparent;
   }
+
+  .nav__menu__btn {
+    display: none;
+  }
+
+  .nav__links {
+    position: static;
+    width: fit-content;
+    padding: 0;
+    flex-direction: row;
+    gap: 3rem;
+    background-color: transparent;
+    transform: none !important;
+  }
 }
 .nav__logo {
   display: flex;
