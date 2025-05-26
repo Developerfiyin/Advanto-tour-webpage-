@@ -17,3 +17,11 @@ navoLinks.addEventListener("click", (e) => {
   navoLinks.classList.remove("open");
   menuBtnIcon.setAttribute("class", "ri-menu-3-line");
 });
+
+const scrollRevealOption = {
+  distance: "50px",
+  origin: "bottom",
+  duration: 1000,
+};
+
+scrollReveal();
