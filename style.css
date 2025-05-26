@@ -222,6 +222,11 @@ nav {
   background-color: var(--primary-color);
 }
 
+@media (width > 540px) {
+  .header__content form {
+    flex-direction: row;
+  }
+}
 @media (width > 768px) {
   nav {
     position: static;
@@ -266,5 +271,11 @@ nav {
   .nav__links .btn {
     color: var(--white);
     background-color: var(--primary-color);
+  }
+
+  .header__container {
+    padding-top: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
   }
 }
