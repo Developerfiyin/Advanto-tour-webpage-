@@ -278,4 +278,12 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
+
+  .header__image {
+    grid-area: 1/2/2/3;
+  }
+
+  .header__content :is(h1, .section__description) {
+    text-align: left;
+  }
 }
