@@ -188,9 +188,13 @@ nav {
   align-items: center;
   gap: 0.25rem;
 }
-
-font-weight: 500;
-color: var(--text-light);
+.header__content label {
+  display: flex;
+  color: var(--text-light);
+  font-weight: 500;
+  gap: 0.25rem;
+  color: var(--text-light);
+}
 
 @media (width > 768px) {
   nav {
