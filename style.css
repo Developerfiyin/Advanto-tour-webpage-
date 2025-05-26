@@ -151,6 +151,17 @@ nav {
   background-color: var(--extra-light);
 }
 
+.header__container {
+  display: grid;
+  gap: 2rem;
+}
+
+.header__image img {
+  max-width: 150px;
+  margin-inline: auto;
+  transform: rotate(-10deg);
+}
+
 @media (width > 768px) {
   nav {
     position: static;
