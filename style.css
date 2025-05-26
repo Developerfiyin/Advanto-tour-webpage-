@@ -162,6 +162,14 @@ nav {
   transform: rotate(-10deg);
 }
 
+.header__content h1 {
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--text-dark);
+  text-align: center;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
