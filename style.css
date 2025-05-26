@@ -196,6 +196,10 @@ nav {
   color: var(--text-light);
 }
 
+.header__content label span {
+  color: var(--primary-color);
+}
+
 @media (width > 768px) {
   nav {
     position: static;
