@@ -200,6 +200,14 @@ nav {
   color: var(--primary-color);
 }
 
+.header__content input {
+  width: 100%;
+  outline: 0;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
 @media (width > 768px) {
   nav {
     position: static;
