@@ -227,6 +227,26 @@ nav {
   background-color: var(--primary-color);
 }
 
+.about {
+  background-color: var(--primary-color);
+}
+
+.about__container {
+  display: grid;
+  gap: 2rem;
+}
+
+.about__image {
+  position: relative;
+  isolation: isolate;
+  max-width: 450px;
+  margin-inline: 450px;
+}
+.about__image img {
+  border: 0.75rem solid var(--white);
+  border-radius: 0.5rems;
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
