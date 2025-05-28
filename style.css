@@ -157,6 +157,11 @@ nav {
 }
 
 .header__image img {
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.header__content img {
   max-width: 150px;
   margin-inline: auto;
   transform: rotate(-10deg);
@@ -185,12 +190,12 @@ nav {
 
 .header__content .input__group {
   flex: 1;
-  align-items: center;
-  gap: 0.25rem;
+  display: grid;
+  gap: 0.5rem;
 }
 .header__content label {
   display: flex;
-  color: var(--text-light);
+  align-items: center;
   font-weight: 500;
   gap: 0.25rem;
   color: var(--text-light);
