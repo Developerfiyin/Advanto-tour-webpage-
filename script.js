@@ -52,3 +52,8 @@ ScrollReveal().reveal(".about__content .secion__description", {
   ...scrollRevealOption,
   delay: 500,
 });
+
+ScrollReveal().reveal(".about__signature", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
