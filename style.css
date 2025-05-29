@@ -228,7 +228,8 @@ nav {
 }
 
 .about {
-  background-color: var(--primary-color);
+  overflow: hidden;
+  background-color: var(--extra-light);
 }
 
 .about__container {
