@@ -259,7 +259,15 @@ nav {
   z-index: -1;
 }
 
-@media (width > 540px) {
+.about__content .section__header {
+  margin-bottom: 1rem;
+}
+
+.about__content .section__header span {
+  color: var(--primary-color);
+}
+
+.about__ @media (width > 540px) {
   .header__content form {
     flex-direction: row;
   }
