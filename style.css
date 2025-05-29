@@ -241,7 +241,7 @@ nav {
   position: relative;
   isolation: isolate;
   max-width: 450px;
-  margin-inline: 450px;
+  margin-inline: auto;
 }
 .about__image img {
   border: 0.75rem solid var(--white);
@@ -339,6 +339,18 @@ nav {
   }
 
   .header__content :is(h1, .section__description) {
+    text-align: left;
+  }
+
+  .about__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .about__content:is(
+      .section__header,
+      .section__description,
+      .about__signature
+    ) {
     text-align: left;
   }
 }
