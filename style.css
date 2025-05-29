@@ -244,7 +244,19 @@ nav {
 }
 .about__image img {
   border: 0.75rem solid var(--white);
-  border-radius: 0.5rems;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.about__image::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  transform: rotate(8deg);
+  z-index: -1;
 }
 
 @media (width > 540px) {
