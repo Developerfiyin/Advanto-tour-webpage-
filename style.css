@@ -328,11 +328,21 @@ nav {
   background-color: var(--extra-light);
 }
 
+.destination__grid {
+  margin-block: grid;
+  display: grid;
+  gap: 1rem;
+}
+
 .destination__card {
   background-color: white;
   border-radius: 0.5rem;
   overflow: hidden;
   transition: 0.3s;
+}
+
+.destination__card:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
 @media (width > 540px) {
