@@ -300,6 +300,14 @@ nav {
   border-radius: 10rem;
 }
 
+.tour__card h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--text-dark);
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
