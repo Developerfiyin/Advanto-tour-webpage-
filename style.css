@@ -308,6 +308,13 @@ nav {
   color: var(--text-dark);
 }
 
+.tour__card p {
+  font-weight: 500;
+  color: var(--text-light);
+  text-align: center;
+  transition: 0.3s;
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
