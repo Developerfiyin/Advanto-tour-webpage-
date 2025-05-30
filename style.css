@@ -277,6 +277,12 @@ nav {
   text-align: center;
 }
 
+.tour__grid {
+  margin-block: 2rem;
+  display: grid;
+  gap: 0 1rem;
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
