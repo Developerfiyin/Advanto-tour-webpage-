@@ -315,9 +315,22 @@ nav {
   transition: 0.3s;
 }
 
+.tour__card:hover p {
+  color: var(--primary-color);
+}
+
+.tour__btn {
+  display: flex;
+  justify-content: center;
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
+  }
+
+  .tour__grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (width > 768px) {
