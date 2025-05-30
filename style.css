@@ -324,6 +324,17 @@ nav {
   justify-content: center;
 }
 
+.destination {
+  background-color: var(--extra-light);
+}
+
+.destination__card {
+  background-color: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
