@@ -361,6 +361,19 @@ nav {
   font-size: 1.2rem;
   font-weight: 800;
   color: var(--text-dark);
+  line-height: 1.75rem;
+}
+
+.destination__card__content h4::before {
+  position: absolute;
+  content: "";
+  top: -1rem;
+  left: -1rem;
+  width: calc(100% + 2rem);
+  height: calc(100% + 2rem);
+  background-color: var(--white);
+  z-index: -1;
+  border-top-right-radius: 0.5rem;
 }
 
 @media (width > 540px) {
