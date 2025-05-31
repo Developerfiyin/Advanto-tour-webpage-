@@ -396,13 +396,20 @@ nav {
   color: var(--text-light);
 }
 
-.destionation__card__footer {
+.destination__card__footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
 }
+
+.destination__card__footer h6 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--text-dark);
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
