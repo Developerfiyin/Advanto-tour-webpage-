@@ -353,6 +353,16 @@ nav {
   padding-bottom: 2rem;
 }
 
+.destination__card__content h4 {
+  position: relative;
+  isolation: isolate;
+  margin-block: -3rem 0.5rem;
+  max-width: 250px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--text-dark);
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
