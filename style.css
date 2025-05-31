@@ -370,7 +370,7 @@ nav {
   top: -1rem;
   left: -1rem;
   width: calc(100% + 2rem);
-  height: calc(100% + 2rem);
+  height: calc(100% + 1rem);
   background-color: var(--white);
   z-index: -1;
   border-top-right-radius: 0.5rem;
@@ -387,6 +387,13 @@ nav {
   z-index: -1;
   border-bottom-left-radius: 0.5rem;
   box-shadow: -0.25rem 0.25rem 0 0.25rem var(--white);
+}
+
+.destination__card__content h5 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-light);
 }
 
 @media (width > 540px) {
