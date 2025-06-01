@@ -420,6 +420,16 @@ nav {
   justify-content: center;
 }
 
+.review__container {
+  display: grid;
+  gap: 2rem;
+}
+
+.review__image img {
+  max-width: 400px;
+  margin-inline: auto;
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
@@ -430,7 +440,7 @@ nav {
   }
 
   .destination__grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (width > 768px) {
