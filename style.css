@@ -450,6 +450,13 @@ nav {
   text-align: left;
 }
 
+.review__card h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
