@@ -430,7 +430,7 @@ nav {
   }
 
   .destination__grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media (width > 768px) {
@@ -508,10 +508,18 @@ nav {
   .tour__grid {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  .destination__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (width > 1024px) {
   .tour__grid {
+    gap: 1.5rem;
+  }
+
+  .destination__grid {
     gap: 1.5rem;
   }
 }
