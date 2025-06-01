@@ -430,6 +430,14 @@ nav {
   margin-inline: auto;
 }
 
+.review__content {
+  overflow: hidden;
+}
+.swiper {
+  margin-top: 2rem;
+  width: 100%;
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
