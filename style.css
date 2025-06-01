@@ -457,6 +457,13 @@ nav {
   color: var(--primary-color);
 }
 
+.review__card h5 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
