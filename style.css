@@ -464,6 +464,17 @@ nav {
   color: var(--text-light);
 }
 
+.review__card > div {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.review__card > div > span {
+  font-size: 1rem;
+  color: goldenrod;
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
