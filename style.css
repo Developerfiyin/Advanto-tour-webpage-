@@ -567,6 +567,23 @@ nav {
   .destination__grid {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .review__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .review__image {
+    grid-area: 1/2/2/3;
+  }
+
+  .review__content :is(.section__container, .section__header) {
+    text-align: left;
+  }
+
+  .review__content .section__header {
+    max-width: 400px;
+  }
 }
 
 @media (width > 1024px) {
