@@ -475,6 +475,10 @@ nav {
   color: goldenrod;
 }
 
+.blog {
+  background-color: var(--extra-light);
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
