@@ -513,6 +513,13 @@ nav {
   line-height: 1.75rem;
 }
 
+.blog__content .btn {
+  padding: 0.5rem 1rem;
+  color: var(--primary-color);
+  background-color: var(--white);
+  border: 1px solid var(--primary-color);
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
