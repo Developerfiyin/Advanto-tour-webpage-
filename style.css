@@ -485,6 +485,13 @@ nav {
   gap: 1rem;
 }
 
+.blog__card {
+  background-color: var(--white);
+  bottom: 0.5rem;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
