@@ -479,6 +479,12 @@ nav {
   background-color: var(--extra-light);
 }
 
+.blog__grid {
+  margin-block: 4rem 2rem;
+  display: grid;
+  gap: 1rem;
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
