@@ -1,4 +1,4 @@
-/*IMPORT FOBOTO DACING SCRIPT FONT*/
+/*IMPORT ROBOTO DACING SCRIPT FONT*/
 
 :root {
   --primary-color: #001bbf;
@@ -315,7 +315,7 @@ nav {
   transition: 0.3s;
 }
 
-.tour__card:hover p {
+.tour__card p:hover {
   color: var(--primary-color);
 }
 
