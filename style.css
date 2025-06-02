@@ -525,6 +525,11 @@ nav {
   background-color: var(--primary-color);
 }
 
+.blog__btn {
+  display: flex;
+  justify-content: center;
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
