@@ -520,6 +520,11 @@ nav {
   border: 1px solid var(--primary-color);
 }
 
+.blog__content .btn:hover {
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
