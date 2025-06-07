@@ -537,7 +537,7 @@ nav {
   width: max-content;
   display: flex;
   align-items: center;
-  animation: scroll-left 15s linear infinite;
+  animation: scroll-left 45s linear infinite;
 }
 
 .banner__wrapper img {
