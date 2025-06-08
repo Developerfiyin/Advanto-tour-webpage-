@@ -553,6 +553,15 @@ nav {
   margin-bottom: 2rem;
 }
 
+.footer__links {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
 .footer__logo img {
   max-width: 150px;
   margin-inline: auto;
