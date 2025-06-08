@@ -567,6 +567,10 @@ nav {
   color: var(--text-dark);
   white-space: nowrap;
 }
+
+.footer__links a:hover {
+  color: var(--primary-color);
+}
 .footer__logo img {
   max-width: 150px;
   margin-inline: auto;
