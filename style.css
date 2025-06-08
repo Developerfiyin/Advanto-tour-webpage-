@@ -549,6 +549,14 @@ nav {
     transform: translateX(calc(-50%));
   }
 }
+.footer__logo {
+  margin-bottom: 2rem;
+}
+
+.footer__logo img {
+  max-width: 150px;
+  margin-inline: auto;
+}
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
