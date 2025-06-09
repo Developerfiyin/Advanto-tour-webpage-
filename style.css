@@ -592,6 +592,15 @@ nav {
 .footer__socials a:hover {
   color: var(--primary-color);
 }
+
+.footer__bar {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-light);
+  text-align: center;
+}
+
 @media (width > 540px) {
   .header__content form {
     flex-direction: row;
