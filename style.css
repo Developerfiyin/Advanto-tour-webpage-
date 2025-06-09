@@ -580,9 +580,17 @@ nav {
   flex-wrap: wrap;
 }
 
+.footer__socials a {
+  font-size: 1.25rem;
+  color: var(--text-dark);
+}
 .footer__logo img {
   max-width: 150px;
   margin-inline: auto;
+}
+
+.footer__socials a:hover {
+  color: var(--primary-color);
 }
 @media (width > 540px) {
   .header__content form {
